@@ -1,28 +1,47 @@
-# chapter 1:
+# chapter 1: GETTING STARTED WITH C
 
->The main function defines the main entry point for the program that’s executed in a *hosted* environment when the program is invoked from the command line or from another program.
+# Developing Your First C Program
 
-freestanding and hosted environments
+[listing 1-1](./hello.c)
 
-[hello.c](hello.c)
+## Compiling and Running Your Program
 
-```c
-#include <stdio.h>
-#include <stdlib.h>
+>The `cc` command has numerous flags and compiler options. The `-o `file flag, for example, lets you give the executable file a memorable name instead of a.out. The following compiler invocation names the executable hello:
 
-
-int main(void) {
-
-  puts("Hello, world!");
-  return EXIT_SUCCESS;
-  
-}
+```
+cc -o hello hello.c
 ```
 
-## checking function return values
+>Now we’ll inspect the hello.c program line by line.
 
-[hello2.c](hello2.c)
+## Preprocessor Directives
 
->The printf function returns the number of characters printed if it’s successful, or a negative value if an output or encoding error occurred. You can try modifying the “Hello, world!” program to use the printf function as an exercise.
+```c
+#include <stdio.h> // puts() function
+#include <stdlib.h> // EXIT_SUCCESS macro
+```
 
-[hello3.c](hello3.c)
+## The main Function
+
+
+## Checking Function Return Values
+
+[hello2.c](./hello2.c)
+
+## Formatted Output
+
+# Editors and Integrated Development Environments
+
+## Compilers
+## GNU Compiler Collection
+## Clang
+## Microsoft Visual Studio
+
+# Portability
+
+## Implementation-Defined Behavior
+## Unspecified Behavior
+## Undefined Behavior
+## Locale-Specific Behavior and Common Extensions
+
+# Summary

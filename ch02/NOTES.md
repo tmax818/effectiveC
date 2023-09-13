@@ -2,7 +2,12 @@
 
 >In this chapter, you’ll learn about objects, functions, and types. We’ll examine how to declare variables (objects with identifiers) and functions, take the addresses of objects, and dereference those object pointers. You’ve already seen some types that are available to C programmers. The first thing you’ll learn in this chapter is one of the last things that I learned: every type in C is either an object type or a function type.
 
-## function types
+## objects, functions, types, and pointers
+
+object
+: storage in which you can represent values
+
+
 
 >You should never declare functions with an empty parameter list in C.
 

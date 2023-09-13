@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> // puts() function
+#include <stdlib.h> // EXIT_SUCCESS macro
 
 
 int main(void) {
